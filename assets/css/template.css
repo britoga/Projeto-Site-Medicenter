@@ -131,13 +131,15 @@ header {
 
 .desc-banner3 {
 	display: flex;
-	flex-direction: space-between;
+	flex-direction: space-around;
+	margin-bottom: 15px;
 }
 
-.text-left {
+.desc-left {
 	float: left;
+	margin-right: auto !important;
 }
 
-.text-right {
+.desc-right {
 	float: right;
 }
