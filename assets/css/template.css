@@ -75,6 +75,7 @@ header {
 }
 
 .banner_headline h2 {
+	height: auto;
 	font-size: 21px;
 	color: #fff;
 	text-shadow: 1px 1px 2px black;
@@ -84,6 +85,7 @@ header {
 .banner_options {
 	height: 210px;
 	display: flex;
+	height: 35%;
 }
 
 .banner1,
@@ -142,4 +144,53 @@ header {
 
 .desc-right {
 	float: right;
+}
+
+.content_left {
+	flex: 2;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+}
+
+#geral {
+	display: flex;
+	justify-content: center;
+}
+
+#geral section {
+	flex: 2;
+}
+
+#geral aside {
+	flex: 1;
+}
+
+.widget_title {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.widget_title_text {
+	color: #000000;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.widget_title_bar {
+	width: 50px;
+	height: 2px;
+	background-color: #36a9e1;
+	margin-top: 10px;
+}
+
+.department_line {
+	display: flex;
+}
+
+.widget_departament {
+	height: 150px;
+	width: 150px;
+	background-color: #36a9e1;
+	margin: 0px 10px 10px 0px;
 }
