@@ -1,7 +1,8 @@
 body {
-	/* margin: 0;
-	padding: 0; */
+	margin: 0;
+	padding: 0;
 	font-family: arial;
+	font-size: 14px;
 }
 
 header {
@@ -287,7 +288,7 @@ footer {
 .fm_1,
 .fm_2,
 .fm_3 {
-	display: flex;
+	/* display: flex; */
 	flex: 1;
 	color: #fff;
 	padding: 20px;
@@ -316,4 +317,21 @@ footer {
 	color: #fff;
 	flex: 1;
 	padding: 10px;
+}
+
+.footer_area .widget_title_text {
+	color: #fff;
+}
+
+.footer_copy {
+	border-top: 1px solid #2c2c2c;
+	color: #808080;
+	height: 40px;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	flex: 1;
+	justify-content: center;
 }
